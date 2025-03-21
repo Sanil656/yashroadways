@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yash Roadways - Maharashtra Truck Transport</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; color: #333; }
+    header { background-color: #0d47a1; color: white; padding: 20px 0; text-align: center; }
+    nav { background-color: #1565c0; display: flex; justify-content: center; flex-wrap: wrap; }
+    nav a { color: #fff; padding: 14px 20px; text-decoration: none; transition: 0.3s; }
+    nav a:hover { background-color: #0d47a1; }
+    .hero { background: url('https://images.unsplash.com/photo-1600195077078-2c0b24381d78') center/cover no-repeat; height: 350px; color: white; display: flex; align-items: center; justify-content: center; text-align: center; flex-direction: column; padding: 20px; }
+    .hero h1 { font-size: 3em; text-shadow: 2px 2px 5px rgba(0,0,0,0.6); }
+    .hero p { font-size: 1.2em; margin-top: 10px; text-shadow: 1px 1px 4px rgba(0,0,0,0.6); }
+    .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+    .section { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h2 { color: #1565c0; margin-bottom: 15px; }
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 8px; }
+    .btn { display: inline-block; padding: 12px 20px; background-color: #1565c0; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 10px; transition: 0.3s; }
+    .btn:hover { background-color: #0d47a1; }
+    .contact-info { display: flex; flex-direction: column; align-items: center; }
+    .contact-info p { margin: 8px 0; }
+    .quick-buttons { margin-top: 15px; }
+    .quick-buttons a { display: inline-block; margin: 5px; padding: 10px 15px; color: #fff; background-color: #43a047; border-radius: 5px; text-decoration: none; }
+    .quick-buttons a.call { background-color: #ef6c00; }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; }
+    footer { background-color: #0d47a1; color: white; text-align: center; padding: 15px 0; margin-top: 40px; }
+    @media (max-width: 600px) { .hero h1 { font-size: 2em; } nav { flex-direction: column; } }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Yash Roadways</h1>
+    <p>Reliable Truck Transport Across Maharashtra</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#areas">Coverage</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Fast. Safe. Trusted.</h1>
+    <p>Your cargo, our responsibility!</p>
+  </div>
+
+  <div class="container">
+
+    <div class="section" id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Full Truck Load (FTL) & Part Load (PTL) Services</li>
+        <li>Door-to-Door Cargo Delivery</li>
+        <li>Heavy Machinery & Industrial Goods Transport</li>
+        <li>Express Delivery Within Maharashtra</li>
+        <li>Warehousing & Logistics Solutions</li>
+      </ul>
+      <a href="#contact" class="btn">Get a Quote</a>
+    </div>
+
+    <div class="section" id="areas">
+      <h2>We Cover Entire Maharashtra</h2>
+      <p>Yash Roadways proudly serves all major cities and towns in Maharashtra:</p>
+      <ul>
+        <li>Mumbai</li>
+        <li>Pune</li>
+        <li>Nashik</li>
+        <li>Nagpur</li>
+        <li>Aurangabad</li>
+        <li>Kolhapur</li>
+        <li>Solapur</li>
+        <li>And Many More!</li>
+      </ul>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>Contact Us</h2>
+
+      <div class="contact-info">
+        <p><strong>Phone:</strong> +91 9324540974</p>
+        <p><strong>Email:</strong> yashroadways44@gmail.com</p>
+        <p><strong>Office Hours:</strong> Mon - Sat, 9AM - 7PM</p>
+
+        <div class="quick-buttons">
+          <a href="tel:+919324540974" class="call">Call Now</a>
+          <a href="https://wa.me/919324540974" target="_blank">WhatsApp</a>
+        </div>
+      </div>
+
+      <h3 style="text-align: center; margin-top: 30px;">Send Us a Message</h3>
+      <form action="https://formsubmit.co/yashroadways44@gmail.com" method="POST">
+        <!-- Disable Captcha (optional) -->
+        <input type="hidden" name="_captcha" value="false">
+      
+        <!-- Redirect to thank you page after submission (optional) -->
+        <input type="hidden" name="_next" value="https://yoursite.com/thank-you.html">
+      
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Yash Roadways. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
